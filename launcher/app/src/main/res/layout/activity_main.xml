@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#0A0E16" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Crypto Launcher" android:textColor="#6FA8FF" android:textSize="26sp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="Minecraft Java · Fabric 1.21.4 · Premium"
+            android:textColor="#8899AA" android:textSize="13sp"/>
+        <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:padding="12dp" android:background="#121A24"
+            android:textColor="#CCCCCC" android:textSize="12sp"
+            android:text="ALPHA: UI + profiles + servers.\nFull Java runtime on Android requires open-source stack (Pojav-class JVM/LWJGL) as integration stage.\nCrypto Client JAR is the working Fabric mod (Right Shift)."/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="Default profile" android:textColor="#6FA8FF" android:textSize="14sp"/>
+        <TextView android:id="@+id/profileInfo" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="1.21.4 · Fabric · Crypto Client"
+            android:textColor="#FFFFFF" android:textSize="16sp"/>
+        <Button android:id="@+id/btnPlay" android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="20dp" android:text="Play (requires runtime)" android:textAllCaps="false"/>
+        <Button android:id="@+id/btnProfiles" android:layout_width="match_parent" android:layout_height="48dp"
+            android:layout_marginTop="8dp" android:text="Profiles / Versions" android:textAllCaps="false"/>
+        <Button android:id="@+id/btnServers" android:layout_width="match_parent" android:layout_height="48dp"
+            android:layout_marginTop="8dp" android:text="Servers · Quick Join" android:textAllCaps="false"/>
+        <Button android:id="@+id/btnPerf" android:layout_width="match_parent" android:layout_height="48dp"
+            android:layout_marginTop="8dp" android:text="Performance Engine" android:textAllCaps="false"/>
+        <Button android:id="@+id/btnMods" android:layout_width="match_parent" android:layout_height="48dp"
+            android:layout_marginTop="8dp" android:text="Mods / Resource packs" android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>
